@@ -3,7 +3,7 @@
   --panel: #3a3e4d;
   --text: #f6f2f2;
   --muted: #9e9eab;
-  --accent: #ec2e79;
+  --accent: #f22479;
   --line: rgba(255, 255, 255, 0.12);
 }
 
@@ -191,7 +191,7 @@ button {
   min-width: 290px;
   padding: 21px 38px;
   border-radius: 17px;
-  background: linear-gradient(135deg, #ea2972, #dc2d79);
+  background: linear-gradient(135deg, #f02477, #e2257a);
   color: #fff;
   font-size: 1.18rem;
   font-weight: 500;
@@ -376,7 +376,7 @@ button {
 }
 
 .pink {
-  background: #e32878;
+  background: #ee1f78;
 }
 
 .portrait.small.pink {
