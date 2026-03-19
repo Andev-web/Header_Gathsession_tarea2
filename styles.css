@@ -13,6 +13,7 @@
 
 html {
   scroll-behavior: smooth;
+  font-size: 82%;
 }
 
 body {
@@ -60,7 +61,7 @@ button {
 .page-shell {
   max-width: 1680px;
   margin: 0 auto;
-  padding: 28px 56px 28px;
+  padding: 18px 56px 16px;
   overflow: hidden;
 }
 
@@ -81,7 +82,7 @@ button {
   align-items: center;
   justify-content: space-between;
   gap: 32px;
-  margin-bottom: 18px;
+  margin-bottom: 10px;
 }
 
 .brand {
@@ -107,6 +108,10 @@ button {
   margin: 0;
   padding: 0;
   list-style: none;
+}
+
+.main-nav {
+  margin-right: 52px;
 }
 
 .main-nav a {
@@ -151,13 +156,13 @@ button {
   grid-template-columns: minmax(700px, 1.02fr) minmax(760px, 0.88fr);
   align-items: center;
   gap: 28px;
-  min-height: calc(100vh - 96px);
+  min-height: calc(100vh - 60px);
   padding-top: 0;
 }
 
 .hero-copy {
   max-width: 840px;
-  padding-top: 34px;
+  padding-top: 12px;
 }
 
 .hero-copy h1 {
@@ -181,7 +186,7 @@ button {
   display: flex;
   align-items: center;
   gap: 36px;
-  margin-top: 38px;
+  margin-top: 28px;
 }
 
 .button-primary {
@@ -226,7 +231,7 @@ button {
 .highlights {
   display: flex;
   gap: 44px;
-  margin-top: 146px;
+  margin-top: 82px;
 }
 
 .highlight-item {
@@ -322,17 +327,17 @@ button {
 .hero-collage {
   position: relative;
   display: grid;
-  grid-template-columns: 292px 260px 292px;
-  grid-template-rows: 256px 270px 256px;
-  gap: 36px;
+  grid-template-columns: 250px 224px 250px;
+  grid-template-rows: 220px 232px 220px;
+  gap: 28px;
   justify-content: end;
   justify-self: end;
   align-content: center;
-  min-height: 970px;
+  min-height: 820px;
   width: max-content;
   margin-left: auto;
   padding-right: 4px;
-  transform: translateX(-26px);
+  transform: translateX(18px);
 }
 
 .portrait {
@@ -360,7 +365,7 @@ button {
 }
 
 .portrait.small {
-  height: 256px;
+  height: 220px;
 }
 
 .purple {
@@ -424,12 +429,17 @@ button {
   object-position: center 14%;
 }
 
+.portrait-right-woman {
+  grid-row: span 1;
+  height: 232px;
+}
+
 .portrait-bottom-woman img {
   object-position: center 8%;
 }
 
 .portrait-bottom-woman {
-  height: 520px;
+  height: 452px;
 }
 
 .portrait-man-glasses img {
@@ -479,14 +489,14 @@ button {
   }
 
   .hero-collage {
-    grid-template-columns: 320px 286px 320px;
-    grid-template-rows: 280px 300px 280px;
-    min-height: 1080px;
-    gap: 38px;
+    grid-template-columns: 274px 246px 274px;
+    grid-template-rows: 240px 258px 240px;
+    min-height: 900px;
+    gap: 30px;
     width: max-content;
     margin-left: auto;
     padding-right: 16px;
-    transform: translateX(-80px);
+    transform: translateX(-24px);
   }
 
   .portrait {
@@ -494,7 +504,7 @@ button {
   }
 
   .portrait.small {
-    height: 280px;
+    height: 240px;
   }
 
   .hero-collage .portrait:nth-child(4) {
@@ -574,7 +584,7 @@ button {
   }
 
   .hero-collage {
-    grid-template-columns: repeat(2, minmax(180px, 1fr));
+    grid-template-columns: repeat(2, minmax(150px, 1fr));
     grid-template-rows: none;
     min-height: auto;
   }
@@ -588,7 +598,7 @@ button {
   .hero-collage .portrait:nth-child(6) {
     grid-column: auto;
     grid-row: auto;
-    height: 300px;
+    height: 244px;
     margin-top: 0;
   }
 
@@ -616,7 +626,7 @@ button {
   .portrait,
   .portrait.small,
   .portrait.tall {
-    height: 350px;
+    height: 288px;
     border-radius: 48px;
   }
 

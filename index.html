@@ -106,5 +106,15 @@
         </section>
       </main>
     </div>
+
+    <script>
+      document
+        .querySelectorAll(".main-nav a, .button-link")
+        .forEach((link) => {
+        link.addEventListener("click", (event) => {
+          event.preventDefault();
+        });
+      });
+    </script>
   </body>
 </html>
